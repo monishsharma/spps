@@ -1675,8 +1675,8 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 @media only screen and (min-width: 992px) {
   .adContent{
-    margin-left: 100px;
-    margin-top:500px;
+    margin-left: 200px;
+    margin-top:150px;
   }
 }
 .glyphicon-chevron-left:before {
@@ -1696,4 +1696,12 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .carousel-control-prev-icon{
   color:black;
+}
+.carousel-control-next{
+  left: 89%;
+}
+.carousel-control-prev-icon {
+  color: black;
+  right: 65%;
+  position: absolute;
 }
