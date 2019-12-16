@@ -1641,3 +1641,59 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 /*# sourceMappingURL=style.css.map */
+.carousel-control.left, .carousel-control.right{
+  background: none;
+}
+#myCarousel{
+  height: 100vh;
+}
+.adContent{
+  margin-left: 200px;
+  margin-top: 100px;
+}
+@media screen and (max-width: 768px) {
+  #hidImg{
+    display: none;
+  }
+  .adContent{
+    margin-left: 100px;
+    margin-top: 200px;
+  }
+  
+}
+@media only screen and (max-width: 600px) {
+  .adContent{
+    margin-left: 0px;
+    margin-top: 50px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .adContent{
+    margin-left: 80px;
+    margin-top:200px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .adContent{
+    margin-left: 100px;
+    margin-top:500px;
+  }
+}
+.glyphicon-chevron-left:before {
+  content: "\e079";
+  /* margin: 69px; */
+  left: -67px;
+  color: black;
+  position: relative;
+  top: -150px;
+}
+.glyphicon-chevron-right:before {
+  /* margin: 69px; */
+  right: -67px;
+  color: black;
+  position: relative;
+  top: -150px;
+}
+.carousel-control-prev-icon{
+  color:black;
+}
