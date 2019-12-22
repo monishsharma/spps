@@ -223,7 +223,6 @@
 			animation: "slide",
 
 			easing: "swing",
-			direction: "vertical",
 
 			slideshowSpeed: 5000,
 			directionNav: true,
@@ -249,17 +248,7 @@
 
 	};
 
-	var parallax = function() {
-
-		if ( !isMobile.any() ) {
-			$(window).stellar({
-				horizontalScrolling: false,
-				hideDistantElements: false, 
-				responsive: true
-
-			});
-		}
-	};
+	
 
 	var testimonialCarousel = function(){
 		
@@ -287,7 +276,6 @@
 		loaderPage();
 		counterWayPoint();
 		counter();
-		parallax();
 		sliderMain();
 		testimonialCarousel();
 	});
