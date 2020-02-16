@@ -338,6 +338,11 @@ h1, h2, h3, h4, h5, h6, figure {
   height: 12px;
   cursor: pointer;
 }
+.munchkins{
+background: url('../Images/m2.JPG');
+background-repeat: no-repeat;
+background-size: cover;
+}
 #fh5co-hero .flexslider .flex-control-nav li a.flex-active {
   cursor: pointer;
   background: rgba(255, 255, 255, 0.7);
@@ -2190,4 +2195,17 @@ body {
 .content {
   padding: 45px 50px;
   font-size: 18px;
+}
+
+#lab_social_icon_footer {
+  padding: 40px 0;
+  background-color:transparent;
+}
+
+#lab_social_icon_footer a {
+  color: white;
+}
+
+a:hover{
+  cursor :pointer
 }
